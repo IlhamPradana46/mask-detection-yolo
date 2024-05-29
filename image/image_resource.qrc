@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="iccon">
+    <file>kecil.png</file>
+    <file>menu.png</file>
+    <file>menu_hover.png</file>
+  </qresource>
+</RCC>

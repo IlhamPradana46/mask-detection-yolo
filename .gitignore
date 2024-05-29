@@ -1,0 +1,5 @@
+document/
+dist/
+build/
+ultralytics/
+__pycache__

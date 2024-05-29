@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>527</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Aplikasi Pendeteksi Masker - Menu Admin</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 23, 37);
+
+QPushButton{
+	background-color: rgb(0, 0, 255);
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>521</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>640</width>
+     <height>640</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>Open Sans SemiBold</family>
+     <pointsize>16</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+color: rgb(73, 131, 241);</string>
+   </property>
+   <property name="text">
+    <string>Aplikasi Pendeteksi Masker Otomatis</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cameraButton">
+   <property name="geometry">
+    <rect>
+     <x>92</x>
+     <y>210</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Open Sans SemiBold</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: rgb(0, 0, 255);
+   color: rgb(255, 255, 255);
+   border-radius: 7px;
+}
+
+QPushButton:hover{
+  border: 2px solid rgb(0, 0, 255);
+  background-color: rgb(0, 23, 37);
+  color: rgb(0, 0, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Buka Kamera</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>73</y>
+     <width>141</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image/kecil.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>280</y>
+     <width>141</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image/reset_passwordd-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetPasswordButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>420</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Open Sans SemiBold</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: rgb(0, 0, 255);
+   color: rgb(255, 255, 255);
+   border-radius: 7px;
+}
+
+QPushButton:hover{
+  border: 2px solid rgb(0, 0, 255);
+  background-color: rgb(0, 23, 37);
+  color: rgb(0, 0, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Reset Password</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userListButton">
+   <property name="geometry">
+    <rect>
+     <x>92</x>
+     <y>420</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Open Sans SemiBold</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: rgb(0, 0, 255);
+   color: rgb(255, 255, 255);
+   border-radius: 7px;
+}
+
+QPushButton:hover{
+  border: 2px solid rgb(0, 0, 255);
+  background-color: rgb(0, 23, 37);
+  color: rgb(0, 0, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Data User</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>86</x>
+     <y>280</y>
+     <width>151</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image/icon_user.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="createUserButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>210</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Open Sans SemiBold</family>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+   background-color: rgb(0, 0, 255);
+   color: rgb(255, 255, 255);
+   border-radius: 7px;
+}
+
+QPushButton:hover{
+  border: 2px solid rgb(0, 0, 255);
+  background-color: rgb(0, 23, 37);
+  color: rgb(0, 0, 255)
+}</string>
+   </property>
+   <property name="text">
+    <string>Buat User Baru</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>80</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../image/icon_new_user.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label</zorder>
+  <zorder>cameraButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>resetPasswordButton</zorder>
+  <zorder>userListButton</zorder>
+  <zorder>label_4</zorder>
+  <zorder>createUserButton</zorder>
+ </widget>
+ <resources>
+  <include location="../resource_image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
